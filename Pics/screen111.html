@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<head>
+    <title>www.healthcare.com</title>
+    <style>
+        html {
+            background: url(banner.jpg) no-repeat center center fixed;
+        }
+        .app {
+            height: 480px;
+            width: 320px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -240px 0 0 -160px;
+            box-shadow: 0 4px 14px #aaa;
+        }
+
+        .menuicon {
+            display: block;
+            position: absolute;
+            top: 15px;
+            left: 19px;
+        }
+
+        .image {
+            margin-top: 10px;
+        }
+
+        .image img {
+            height: 60px;
+            width: 55px;
+            border-radius: 40%;
+            float: right;
+            position: right;
+            display: block;
+            margin: 20px;
+            margin-top: 15px;
+        }
+
+        .user {
+            margin-top: 80px;
+        }
+
+        .user p {
+            font-size: 18px;
+            font-family: verdana;
+            margin: 30px;
+            margin-right: 100px;
+        }
+
+        .able table {
+            width: 90px;
+
+        }
+
+        .botton .title {
+            margin-botom: 20px;
+        }
+
+        .bottom .title p{
+            margin: 35px;
+            font-size: 15px;
+            text-align: left;
+            font-family: verdana;
+            margin-bottom: 1px;
+        }
+
+        .title small {
+            font-size: 10px;
+            color: #888;
+            text-transform: uppercase;
+            text-align:center;
+            letter-spacing: 5px;
+            margin: 35px;
+        }
+
+        ul.tasks .task-title {
+            font-size: 13px;
+            display: inline-block;
+        }
+
+        ul.tasks .task-time {
+            float: right;
+            font-size: 15px;
+            color: #888;
+            margin-right: 10px;
+        }
+
+        ul.tasks .task-cat {
+            font-size: 15px;
+            display: block;
+            color: #888;
+        }
+
+        ul.tasks li {
+            margin-bottom: 18px;
+            position: relative;
+
+        }
+
+        ul.tasks li:after {
+            content: '';
+            position: absolute;
+            left: -18px;
+            top: 8px;
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+        }
+
+        ul.tasks li.red:after {
+            background: #FF3163;
+        }
+
+        ul.tasks li.green:after {
+            background: #54D6C7;
+        }
+
+        ul.tasks li.yellow:after {
+            background: #EAB429;
+        }
+
+        ul li.hang {
+            margin-bottom: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <lable for "menu" class="menuicon">&#9776</lable>
+        <div class="image">
+            <img src="client.jpg">
+        </div>
+        <div class="user">
+            <p>Welcome back jana<br>Things look allright.</p>
+        </div>
+        <div class="bottom">
+            <div class="title">
+                <p>vision Statement</p>
+                <small>november 18,2017</small>
+            </div>
+        </div>
+        <ul class="tasks">
+            <li class="one red">
+                <span class="task-title">36.75</span>
+                <span class="task-time">45%</span>
+                <span class="task-cat">Temperature</span>
+            </li>
+            <li class="one red">
+                <span class="task-title">537 cal</span>
+                <span class="task-time">3pm</span>
+                <span class="task-cat">calories burned</span>
+
+            </li>
+            <li class="two green">
+                <span class="task-title">3342</span>
+                <span class="task-time">2pm</span>
+                <span class="task-cat">Steps</span>
+            </li>
+            <li class="tow green hang">
+                <span class="task-title">87bpm</span>
+                <span class="task-time">2pm</span>
+                <span class="task-cat">Heart rate</span>
+            </li>
+        </ul>
+    </div>
+</body>
