@@ -3,7 +3,7 @@
 }
 .backgroundfix{
 height: 200px;
-background: #232323 url(../client.jpg) 100% no-repeat;
+background: #232323 url(../img/client.jpg) 100% no-repeat;
 background-size: cover;
 }
 .stylepattern {
