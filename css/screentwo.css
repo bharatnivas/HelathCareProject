@@ -11,3 +11,59 @@ background-size: cover;
     background-color: #ffffff82;
     border-bottom: 5px solid blue;
 }
+.stylepattern img {
+    position: absolute;
+    top: 15%;
+}
+.stylepattern h1 {
+    font-weight: 300;
+    padding-top: 14%;
+}
+.designcolor {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+.col-lg-8.remove{
+    padding: 0px 0px 0px 15px;
+}
+.col-lg-4.removespace{
+    padding: 0px 15px 0px 0px;
+}
+.designcolor p {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #fff;
+}
+.bordercolorfix h2 {
+    font-weight: 300;
+    font-size: 30px;
+    color:#fff;
+}
+.bordercolorfix p {
+    color: #a7b3b8;
+    font-size: 14px;
+}
+.gridcreate {
+    padding: 30px 0px 0px 0px;
+    background-color:#3b547e;
+}
+.bordercolorfix {
+    padding: 0px 0px 0px 30px;
+}
+.goalsfix {
+    padding: 30px;
+}
+.goalsfix  h1{
+    font-weight: 300;
+    color:#fff;
+}
+.goalsfix  h4{
+    font-weight: 300;
+    color:#fff;
+    padding-top: 2%;
+}
+.goalsfix p{
+    font-weight: 300;
+    color:#fff;
+}
