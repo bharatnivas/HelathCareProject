@@ -1,189 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <title>www.healthcare.com</title>
-    <style>
-        html {
-            background: url(banner.jpg) no-repeat center center fixed;
-        }
-        .app {
-            height: 503px;
-            width: 320px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin: -240px 0 0 -160px;
-            box-shadow: 0 4px 14px #aaa;
-        }
-
-        .menuicon {
-            display: block;
-            position: absolute;
-            top: 15px;
-            left: 19px;
-        }
-
-        .image {
-            margin-top: 10px;
-        }
-
-        .image img {
-            height: 60px;
-            width: 55px;
-            border-radius: 40%;
-            float: right;
-            position: right;
-            display: block;
-            margin: 20px;
-            margin-top: 15px;
-        }
-
-        .user {
-            margin-top: 80px;
-        }
-
-        .user p {
-            font-size: 18px;
-            font-family: verdana;
-            margin: 30px;
-            margin-right: 100px;
-        }
-
-        .able table {
-            width: 90px;
-
-        }
-
-        .botton .title {
-            margin-botom: 20px;
-        }
-
-        .bottom .title p{
-            margin: 35px;
-            font-size: 15px;
-            text-align: left;
-            font-family: verdana;
-            margin-bottom: 1px;
-        }
-
-        .title small {
-            font-size: 10px;
-            color: #888;
-            text-transform: uppercase;
-            text-align:center;
-            letter-spacing: 5px;
-            margin: 35px;
-        }
-
-        ul.tasks .task-title {
-            font-size: 13px;
-            display: inline-block;
-        }
-
-        ul.tasks .task-time {
-            float: right;
-            font-size: 15px;
-            color: #888;
-            margin-right: 10px;
-        }
-
-        ul.tasks .task-cat {
-            font-size: 15px;
-            display: block;
-            color: #888;
-        }
-
-        ul.tasks li {
-            margin-bottom: 18px;
-            position: relative;
-
-        }
-
-        ul.tasks li:after {
-            content: '';
-            position: absolute;
-            left: -18px;
-            top: 8px;
-            height: 8px;
-            width: 8px;
-            border-radius: 50%;
-        }
-
-        ul.tasks li.red:after {
-            background: #FF3163;
-        }
-
-        ul.tasks li.green:after {
-            background: #54D6C7;
-        }
-
-        ul.tasks li.yellow:after {
-            background: #EAB429;
-        }
-
-        ul li.hang {
-            margin-bottom: 50px;
-        }
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-}
-
-a:hover {
-    color: black;
-}
-
-.previous {
-    color: black;
-    padding: 0px 137px 0px 24px;
-}
-
-.next {
-    color: black;
-}
-    </style>
-</head>
-
-<body>
-    <div class="app">
-        <lable for "menu" class="menuicon">&#9776</lable>
-        <div class="image">
-            <img src="client.jpg">
-        </div>
-        <div class="user">
-            <p>Welcome back jana<br>Things look allright.</p>
-        </div>
-        <div class="bottom">
-            <div class="title">
-                <p>vision Statement</p>
-                <small>november 18,2017</small>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/screenone.css">
+    <link rel="stylesheet" type="text/css" href="css/screentwo.css">
+    <link rel="stylesheet" type="text/css" href="css/screenthree.css">
+    <title>HealthCare-app</title>
+  </head>
+  <body>
+        <div class="headpart">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ScreenOne">
+                        <div class="iconuser">
+                        <img src="menu.png"/>
+                    </div>
+                        <div class="userfit">
+                                <img src="client.jpg"/>
+                        </div>
+                        
+                        <h1>Welcome back Jana,</h1>
+                        <h1>Things Look <span>allright</span></h1>
+                        <div class="fourbox">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="firstbox">
+                                        <h1>bharat</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                        <div class="firstbox">
+                                            <h1>bharat</h1>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="firstbox">
+                                            <h1>bharat</h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                            <div class="firstbox">
+                                                <h1>bharat</h1>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="activitycontent">
+                            <h1>Moveing activity</h1>
+                            <p>Today</p>
+                            <p>Avg</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ScreenTwo">
+                            <div class="backgroundfix">
+                            <div class="row">
+                            <div class="col-lg-8">
+                                <div class="stylepattern">
+                                <img src="menu.png"/>
+                                <h1>Jana</h1>
+                                <h1>NovaKova</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="designcolor">
+                                <p>57% of goals</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="gridcreate">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                    <div class="bordercolorfix">
+                                        <h2>22</h2>
+                                        <p>Age</p>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bordercolorfix">
+                                            <h2>22</h2>
+                                            <p>Age</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bordercolorfix">
+                                            <h2>22</h2>
+                                            <p>Age</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-lg-4">
+                                        <div class="bordercolorfix">
+                                            <h2>22</h2>
+                                            <p>Age</p>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="bordercolorfix">
+                                                <h2>22</h2>
+                                                <p>Age</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="bordercolorfix">
+                                                <h2>22</h2>
+                                                <p>Age</p>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="goalsfix">
+                                    <h1>Your Goals</h1>
+                                    <div class="inlinefix">
+                                        <h4>Lose Weight</h4>
+                                        <p>4.6 kg/8 kg</p>
+                                        <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="inlinefix">
+                                            <h4>Running Per Week</h4>
+                                            <p>8.2 km/10 km</p>
+                                            <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                            </div>
+                                    </div>
+                                    <div class="inlinefix">
+                                            <h4>Steps per day</h4>
+                                            <p>3342/10000</p>
+                                            <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ScreenThree">
+                         <div class="menuhead">
+                            <img src="menu.png"/>
+                            <img src="menu.png"/>
+                         </div>
+                         <div class="bigfont">
+                             <p>June 4 2015</p>
+                             <h1>54.7<span>Kg</span></h1>
+                             <h3>Body Weight</h3>
+                         </div>
+                         <ul>
+                             <li>Feb</li>
+                             <li>Mar</li>
+                             <li>Apr</li>
+                             <li>May</li>
+                             <li>June</li>
+                             <li>July</li>
+                         </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <ul class="tasks">
-            <li class="one red">
-                <span class="task-title">36.75</span>
-                <span class="task-time">45%</span>
-                <span class="task-cat">Temperature</span>
-            </li>
-            <li class="one red">
-                <span class="task-title">537 cal</span>
-                <span class="task-time">3pm</span>
-                <span class="task-cat">calories burned</span>
 
-            </li>
-            <li class="two green">
-                <span class="task-title">3342</span>
-                <span class="task-time">2pm</span>
-                <span class="task-cat">Steps</span>
-            </li>
-            <li class="tow green hang">
-                <span class="task-title">87bpm</span>
-                <span class="task-time">2pm</span>
-                <span class="task-cat">Heart rate</span>
-            </li>
-        </ul>
-        <a href="screen3.html" class="previous">&laquo; Previous</a>
-        <a href="screen2.html" class="next">Next &raquo;</a>
-    </div>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
