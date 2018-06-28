@@ -1,0 +1,13 @@
+.ScreenTwo {
+    padding: 0px 30px 0px 30px;
+}
+.backgroundfix{
+height: 200px;
+background: #232323 url(../client.jpg) 100% no-repeat;
+background-size: cover;
+}
+.stylepattern {
+    padding: 51px 0px 0px 30px;
+    background-color: #ffffff82;
+    border-bottom: 5px solid blue;
+}
