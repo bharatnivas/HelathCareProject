@@ -1,3 +1,38 @@
 .ScreenThree{
     background-color: #fff;
+    padding:30px 30px;
+}
+.leftplace img {
+    float: right;
+}
+.bigfont p{
+color: #666;
+font-size: 14px;
+margin: 0;
+padding-left: 2%;
+}
+.bigfont h1{
+    font-weight: 300;
+    font-size: 50px;
+}
+.bigfont h3{
+font-weight: 300;
+}
+.bigfont {
+    padding: 30px 30px 30px 30px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline;
+}
+li{
+        padding-right: 9%;
+        color: #666;
+        font-size: 16px;
+}
+.tworesult {
+    display: -webkit-inline-box;
+    padding-bottom: 9%;
 }
